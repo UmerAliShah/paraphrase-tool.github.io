@@ -232,6 +232,11 @@ input[type='radio']:checked:after {
     text-align: start;
 }
 
+.feature-2-icon img{
+    width: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
 
 .feature-area-2{
     text-align: center;
