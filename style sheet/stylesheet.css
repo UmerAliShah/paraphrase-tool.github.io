@@ -17,7 +17,7 @@ body a{
 
 
 .banner-bg{
-    background:linear-gradient(rgba(34, 166, 179,0.3),rgba(34, 166, 179,0.4)), url("../images/8b317cc7-fa99-4f2f-9267-10284fa2e9b9.jpeg");
+    background:linear-gradient(rgba(34, 166, 179,0.3),rgba(34, 166, 179,0.4)), url("../images/top-bg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100vw;
