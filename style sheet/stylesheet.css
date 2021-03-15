@@ -732,7 +732,7 @@ ul > li{
     }
     .about-us-text{
         font-weight: 400 !important;
-        color: white;
+        color: black;
     }
     
 
@@ -782,7 +782,7 @@ ul > li{
     .features-text{
         margin-top: 1000px !important;
         font-weight: 400 !important;
-        color: white;
+        color: black;
     }
 
 }
