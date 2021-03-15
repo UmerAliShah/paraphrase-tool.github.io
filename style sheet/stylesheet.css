@@ -535,10 +535,10 @@ ul > li{
         height: 30vh !important;
         background-color: white;
         outline: none;
+        color: black;
         width: 90% !important;
         position: absolute;
         left: 0 !important;
-        margin-left: 10px !important;
         margin-left: 30px !important;
     
     }
@@ -547,8 +547,9 @@ ul > li{
         outline: none;
     }
     .text-starter{
-        margin: 10px;
+        margin-top: 30px !important;
         font-family: sans-serif;
+        margin-left: -180px !important;
     }
 
     #text-area-new{
@@ -556,6 +557,7 @@ ul > li{
         border-radius: 10px;
         height: 30vh !important;
         background-color: white;
+        color: black;
         outline: none;
         width: 90% !important;
         margin-top: 300px !important;
@@ -606,7 +608,7 @@ ul > li{
 
 
     .feature-area-1{
-        height: 100px !important;
+        height: 150px !important;
         width: 90vw;
         margin-left: 30px;
     }
@@ -622,7 +624,7 @@ ul > li{
         margin-top: 50px;
         text-align: center;
         border: 1px solid rgba(178, 190, 195,0.4);
-        height: 200px;
+        height: 300px;
         width: 80vw;
         margin-left: 45px;
         padding-top: 10px;
@@ -644,7 +646,7 @@ ul > li{
         margin-top: 50px;
         text-align: center;
         border: 1px solid rgba(178, 190, 195,0.4);
-        height: 200px;
+        height: 300px;
         width: 80vw;
         margin-left: 45px !important;
         padding-top: 10px;
@@ -668,7 +670,7 @@ ul > li{
         margin-top: 50px;
         text-align: center;
         border: 1px solid rgba(178, 190, 195,0.4);
-        height: 200px;
+        height: 300px;
         width: 80vw;
         margin-left: 45px;
         padding-top: 10px;
@@ -696,7 +698,7 @@ ul > li{
         margin-left: 50px;
     }
     .about-us img{
-        margin-top: 100px !important;
+        margin-top: 0px !important;
         border: 1px solid transparent;
         border-radius: 10%;
         height: 200px;
@@ -712,7 +714,7 @@ ul > li{
     }
     .about-us p{
         word-spacing: 0px !important;
-        color: white;
+        color: black;
     }
     .about-us li{
         margin-top: 10px !important;
@@ -743,6 +745,7 @@ ul > li{
         
         max-width: 80vw;
         margin-left: 50px;
+        margin-bottom: 100px;
     
     }
     .features img{
@@ -762,9 +765,11 @@ ul > li{
     }
     .features p{
         word-spacing: 0px !important;
-        color: white;
+        color: black;
     }
-    
+    ul > li{
+        color: black !important;
+    }
 
     .features-text::before{
         display: inline-block;
