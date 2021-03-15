@@ -34,7 +34,7 @@ body a{
                     /* logo */
 
 #logo a{
-    color: rgba(199, 236, 238,0.4);
+    color: rgb(255, 255, 255);
     font-family: Poppins,sans-serif;
     font-size: 36px;
     margin-left: 120px !important;
