@@ -33,9 +33,7 @@ body a{
 
                     /* logo */
 
-.logo{
-    width: 100px;
-}
+
 .logo img{
     width: 400px;
     margin-left: 30px;
@@ -504,13 +502,10 @@ ul > li{
     *{
         text-align: center;
     }
-    #logo a{
-        color: #0c2e60;
-        font-family: Poppins,sans-serif;
-        font-size: 26px;
-        margin-left: 50px !important;
-        font-weight: bold;
-        margin-top: 5px;
+    .logo img{
+        width: 300px;
+        margin-left: 10px;
+    
     }
     .main-area{
         margin-top: 100px;
