@@ -313,7 +313,7 @@ input[type='radio']:checked:after {
 
 .about-us{
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .about-us img{
     margin-top: 100px;
@@ -362,7 +362,7 @@ input[type='radio']:checked:after {
 
 .features{
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .features img{
     border: 1px solid #0c2e60 !important;
@@ -419,44 +419,52 @@ input[type='radio']:checked:after {
 
 
 .footer-bg{
-    background-color: grey;
+    background-color: rgba(128, 128, 128,0.6);
     width: 100% !important;
     background-size: cover;
     background-position: center;
     --bs-gutter-x: 0rem !important;
+    height: 100% !important;
 }
 .footer-bg h2{
     margin-top: 50px;
+    font-weight: 700;
+}
+ul > li{
+    list-style-type:square;
+    margin-left: 10px;
+}
+.hire-us{
+    color: #0c2e60;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.hire-us-p{
+    margin-left: 30px;
+}
+.newsletter{
+    color: #0c2e60;
+    font-size: 25px;
+
 }
 .contactus{
     color: #0c2e60;
     font-size: 25px;
 }
-.address{
-    color: white;
-    font-size: 12px;
-}
-.address-header{
-    color: #0c2e60;
-    font-size: 20px;
-}
-
-.phone{
-    color: white;
-    font-size: 12px;
-}
-.phone-header{
-    color: #0c2e60;
-    font-size: 20px;
-}
 .email{
     color: white;
     font-size: 12px;
+    margin-bottom: 100px;
 }
 .email-header{
     color: #0c2e60;
     font-size: 20px;
 }
+.email a{
+    color: white;
+    font-size: 18px;
+}
+
 
 
 
