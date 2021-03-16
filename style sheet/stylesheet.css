@@ -8,10 +8,7 @@
                     /* background image */
 body{
     color: black !important;
-    background: #BBD2C5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
 }
 body a{
     color: white;
@@ -27,6 +24,12 @@ body a{
     height: 100%;
 } */
 
+.wave-top{
+    position: absolute;
+    width: 100vw;
+    z-index: -4;
+    top: 350px;
+}
 
                     /* top navbar */
 
@@ -87,7 +90,7 @@ body a{
                     /* orignal phrase area top text */
 
 .orignal-text{
-    width: 100%;
+    width: 200px;
     border: 1px solid #0c2e60;
     background-color: #0c2e60;
     border-radius: 10px;
@@ -96,6 +99,7 @@ body a{
     margin-bottom: -13px;
     z-index: 100;
     position: relative;
+    margin-left: 20px;
     margin-top: -15px !important;
 }
 
@@ -103,10 +107,8 @@ body a{
     border: 1px solid rgba(99, 110, 114, 0.4);
     border-radius: 10px;
     margin-left: 50px !important;
-    height: 60vh !important;
-    background-color: rgba(45, 52, 54,0.6);
+    background-color: rgba(255, 255, 255,0.9);
     outline: none;
-    width: 55vw;
     color: white;
 
 }
@@ -115,9 +117,13 @@ body a{
     outline: none;
 }
 .text-starter{
+    color: black;
     margin: 20px;
     font-family: sans-serif;
     margin-top: 40px;
+    height: 50vh !important;
+    width: 55vw;
+    border: none;
 }
 
 .radio-btn{
@@ -155,7 +161,7 @@ input[type='radio']:checked:after {
     border: 1px solid rgba(99, 110, 114, 0.4);
     border-radius: 10px;
     height: 60vh !important;
-    background-color: rgba(45, 52, 54,0.6);
+    background-color: rgba(255, 255, 255,0.9);
     outline: none;
     width: 30vw;
     color: white;
@@ -166,6 +172,7 @@ input[type='radio']:checked:after {
     outline: none;
 }
 .text-starter-p{
+    color: black;
     margin: 20px;
     margin-top: 40px;
     font-family: sans-serif;
@@ -175,7 +182,7 @@ input[type='radio']:checked:after {
 
 
 .Paraphrased-text{
-    width: 100%;
+    width: 200px;
     border: 1px solid #0c2e60;
     background-color: #0c2e60;
     border-radius: 10px;
@@ -184,6 +191,7 @@ input[type='radio']:checked:after {
     margin-bottom: -13px;
     z-index: 100;
     position: relative;
+    margin-left: 20px;
     margin-top: -15px !important;
 }
 .paraphrase-now-btn{
