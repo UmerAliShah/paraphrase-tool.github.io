@@ -42,14 +42,12 @@
 
             <div class=" mx-3 " id="text-area-orignal">
                 <h5 contenteditable="false" class="orignal-text mt-5">Orignal Text</h5>
-                <input class="text-starter" type="text" value="Hello my name is umer" id="original_text">
+                <textarea  class="text-starter mt-5" name="paraphrasing-text" id="original_text"  cols="30" rows="10"></textarea>
             </div>
 
             <div contenteditable="false" class=" mx-3 " id="text-area-new">
-
                 <div contenteditable="false" class="Paraphrased-text mt-5">Paraphrased Text</div>
-                <div class="text-starter-p" id="response">
-                </div>
+                <textarea  class="text-starter-p" name="paraphrased-text" id="response" cols="45" rows="15"></textarea>
             </div>
         </div>
         <button class="paraphrase-now-btn" id="paraphrase" onclick="paraphrase()"> Paraphrase Now</button>
