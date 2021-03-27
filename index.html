@@ -42,20 +42,17 @@
 
             <div class=" mx-3 " id="text-area-orignal">
                 <h5 contenteditable="false" class="orignal-text mt-5">Orignal Text</h5>
-
-                <div contenteditable="true" class="text-starter">
-                    Paste text here
-                </div>
+                <input class="text-starter" type="text" value="Hello my name is umer" id="original_text">
             </div>
 
             <div contenteditable="false" class=" mx-3 " id="text-area-new">
 
                 <div contenteditable="false" class="Paraphrased-text mt-5">Paraphrased Text</div>
-                <div class="text-starter-p">
+                <div class="text-starter-p" id="response">
                 </div>
             </div>
         </div>
-        <button class="paraphrase-now-btn"> Paraphrase Now</button>
+        <button class="paraphrase-now-btn" id="paraphrase" onclick="paraphrase()"> Paraphrase Now</button>
     </div>
 
     <div class=" mt-5">
@@ -225,6 +222,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+    console.log(document.getElementById("original_text").value)
+    console.log("Test")
+
+    function paraphrase(){
+        const data = JSON.stringify({
+            "sourceText": document.getElementById("original_text").value
+        });
+
+        const xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+
+        xhr.addEventListener("readystatechange", function () {
+            if (this.readyState === this.DONE) {
+                console.log(this.responseText);
+                document.getElementById("response").innerHTML = this.responseText;
+            }
+        });
+
+        xhr.open("POST", "https://paraphrasing-tool1.p.rapidapi.com/api/rewrite");
+        xhr.setRequestHeader("content-type", "application/json");
+        xhr.setRequestHeader("x-rapidapi-key", "39ee38125bmshd99e8559f9000bbp14ccfdjsnf77457e1f510");
+        xhr.setRequestHeader("x-rapidapi-host", "paraphrasing-tool1.p.rapidapi.com");
+
+        xhr.send(data);
+    }
+    </script>
 
 </body>
 
