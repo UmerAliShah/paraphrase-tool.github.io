@@ -8,6 +8,7 @@
                     /* background image */
 body{
     color: black !important;
+    background-color: rgba(238, 127, 51,0.8);
     
 }
 body a{
@@ -111,6 +112,9 @@ body a{
     outline: none;
     color: white;
 
+}
+#text-area-orignal textarea{
+    width: 50vw !important;
 }
 #text-area-orignal:hover{
     box-shadow: 2px 2px #0c2e60;
@@ -522,7 +526,7 @@ ul > li{
         margin-top: 100px;
     }
     .orignal-text{
-        width: 100px;
+        width: 150px;
         border: 1px solid #0c2e60;
         background-color: #0c2e60;
         border-radius: 10px;
@@ -531,43 +535,50 @@ ul > li{
         margin-bottom: -13px;
         z-index: 100;
         position: relative;
-        margin-left: 20px;
+        margin-left: 0px !important;
         margin-top: -15px !important;
     }
     
     #text-area-orignal{
         border: 1px solid rgba(99, 110, 114, 0.4);
         border-radius: 10px;
-        height: 30vh !important;
+        height: 40vh !important;
         background-color: white;
         outline: none;
         color: black;
         width: 90% !important;
         position: absolute;
+        margin-left: 10px !important;
         left: 0 !important;
-        margin-left: 30px !important;
     
+    }
+    #text-area-orignal textarea{
+        width: 100% !important;
+        height: 100% !important;
     }
     #text-area-orignal:hover{
         box-shadow: 2px 2px #0c2e60;
         outline: none;
     }
     .text-starter{
-        margin-top: 30px !important;
+        margin-top: 5px !important;
         font-family: sans-serif;
-        margin-left: -180px !important;
+        margin-left: 0px !important;
     }
-
+    .text-starter textarea{
+        position: absolute;
+        margin-left: 30px !important;
+    }
     #text-area-new{
         border: 1px solid rgba(99, 110, 114, 0.4);
         border-radius: 10px;
-        height: 30vh !important;
+        height: 65vh !important;
         background-color: white;
         color: black;
         outline: none;
         width: 90% !important;
         margin-top: 300px !important;
-        margin-left: 30px !important;
+        margin-left: 10px !important;
 
     }
     #text-area-new:hover{
@@ -575,9 +586,15 @@ ul > li{
         outline: none;
     }
     .text-starter-p{
-        margin: 20px;
+        margin-left: 0px !important;
         margin-top: 40px;
         font-family: sans-serif;
+    }
+    textarea{
+        width: 100% !important;
+    }
+    .text-starter-p textarea{
+        width: 50% !important;
     }
     .Paraphrased-text{
         width: 150px;
@@ -589,7 +606,7 @@ ul > li{
         margin-bottom: -13px;
         z-index: 100;
         position: relative;
-        margin-left: 20px;
+        margin-left: 0px !important;
         margin-top: -15px !important;
     }
     .paraphrase-now-btn{
